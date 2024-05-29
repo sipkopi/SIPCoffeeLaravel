@@ -137,7 +137,7 @@
                         <h1 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">Get Better With Sip Coffee<span class="primary-color"></span></h1>
                         <div class="row g-4 align-items-center">
                             <div class="col-md-4">
-                                <a href="about.html" class="btn-one wow fadeInUp" data-wow-duration="1.5s"
+                                <a href="abo" class="btn-one wow fadeInUp" data-wow-duration="1.5s"
                                     data-wow-delay=".5s"><span>Kunjungi Kami </span> <i
                                         class="fa-solid fa-angles-right"></i></a>
                             </div>
@@ -167,17 +167,14 @@
                         <div class="col-lg-6">
                             <div class="section-header m-0">
                                 <h5 class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s"><img
-                                        src="assets/images/icon/leaf.svg" alt="image"> HOW WE WORK</h5>
-                                <h2 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">We work together
-                                    for bettering tomorrow</h2>
+                                        src="assets/images/icon/leaf.svg" alt="image"> Transformasi</h5>
+                                <h2 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">Transformasi Positif dalam Industri Kopi </h2>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <p class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">we are an organization
-                                engaged in "Tree Planting" activities, therefore you can "Donate
-                                Trees. We also join in
-                                "Community Forestry | Reforestation" to keep the earth together so that it remains
-                                sustainable.</p>
+                            <p class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">Meningkatkan transparansi dan keberlanjutan dalam industri kopi.
+                                 Memberdayakan produsen untuk mengurangi kemiskinan dan melindungi lingkungan. 
+                                Memastikan hasil panen berkualitas dan memperkuat industri kopi global."</p>
                         </div>
                     </div>
                 </div>
@@ -304,7 +301,7 @@
     </div>
     <div class="container">
         <div class="blog__head-wrp mb-65">
-            <div class="section-headerr m-0 text-center">
+            <div class="section-headerr m-0 ">
                 <h5 class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
                        </h5>
                 <h2 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">Kontribusi Kami Dalam <br>Meningkatkan 
@@ -388,6 +385,74 @@
 </section>
 <!-- Blog -->
 
+
+        <!-- Involved area start here -->
+        <section class="involve-two pt-130 pb-130">
+            <div class="involve-two__shape d-none d-md-block animation__rotate">
+                <img src="assets/images/logo/1.png" alt="shape">
+            </div>
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-xl-6">
+                        <div class="involve-two__image">
+                            <img src="assets/images/banner/raisa3.jpg" alt="image">
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="about-two__right-item">
+                            <div class="section-header mb-4">
+                                <h5 class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s"><img
+                                        src="assets/images/icon/leaf.svg" alt="image"> Potensi</h5>
+                                <h2 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">Peluang Bondowoso coffe</h2>
+                                <p class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">Indonesia telah lama menjadi pemain utama dalam industri kopi global. Pada tahun 2017, ekspor komoditas kopi di Indonesia memiliki nilai US$1.175,4 juta (BPS 2020). Menurut PUSDATIN (2020), 
+                                    Indonesia merupakan produsen kopi terbesar ketiga di dunia setelah Brazil dan Vietnam. Kabupaten Bondowoso, 
+                                    sebagai salah satu kabupaten di Jawa Timur, telah menunjukkan kontribusi yang sangat signifikan dalam industri kopi Indonesia.</p>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-5 wow fadeInUp" data-wow-duration="1.8s" data-wow-delay=".8s">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/banner/narray.png" alt="image">
+                                        <h4 class="ml-20">Narray Coffe</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 wow fadeInUp" data-wow-duration="1.8s" data-wow-delay=".8s">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/logo/file.png" alt="image">
+                                        <h4 class="ml-20">Kopi Raisa </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="wow mt-4 fadeInDown" data-wow-duration="1.2s" data-wow-delay=".2s">
+                                <li class="mb-20"><img class="pe-2" src="assets/images/icon/leaf.svg" alt="icon">
+                                    Berkelanjutan
+                                </li>
+                                <li class="mb-20"><img class="pe-2" src="assets/images/icon/leaf.svg" alt="icon">
+                                    Integratif
+                                </li>
+                                <li><img class="pe-2" src="assets/images/icon/leaf.svg" alt="icon">
+                                    Terdata Dari Awal
+                                </li>
+                            </ul>
+                            <div class="about_info d-flex align-items-center pt-60 wow fadeInUp"
+                                data-wow-duration="1.9s" data-wow-delay=".9s">
+                                <a href="abo" class="btn-one"><span>Kunjungi Kami</span> <i
+                                        class="fa-solid fa-angles-right"></i></a>
+                                <span class="bor-left d-none d-sm-block mx-4"></span>
+                                <div class="info d-flex flex-wrap align-items-center">
+                                    <i class="fa-solid fa-phone-volume ring-animation"></i>
+                                    <div class="about_info_con">
+                                        <span class="d-block text-capitalize">Hubungi Kami</span>
+                                        <a href="https://wa.me/085856867561">+62 8585 6867 561</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Involved area end here -->
 
        
         <section class="statistic-area sub-bg pt-130 pb-130">
