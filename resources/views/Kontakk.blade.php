@@ -125,12 +125,12 @@
                             <p></p>
                             <div class="arry"><img src="{{asset('assets')}}/images/icon/arry.png" alt=""></div>
                             <ul>
-                                <li><a href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&amp;hl=en_US&amp;ll=18.672105000000013%2C105.68673800000003&amp;z=17"
+                                <li><a href="https://maps.app.goo.gl/rt2jWrGCu6ixBWmn7"
                                         target="_blank"><i class="fa-solid fa-location-dot"></i>Jl. Raya Situbondo, Blindungan, Kabupaten Bondowoso, Jawa Timur 68211 </a>
                                 </li>
-                                <li><a href="tel:1-732-798-0976"><i class="fa-solid fa-phone-volume"></i>+62 8585 6867 561</a>
+                                <li><a href="https://wa.me/085856867561"><i class="fa-solid fa-phone-volume"></i>+62 8585 6867 561</a>
                                 </li>
-                                <li><a href="mailto:company.info@mail.com"><i
+                                <li><a href="mailto:sipkopi.helpdesk@gmail.com"><i
                                             class="fa-solid fa-envelope"></i>Sipkopi.helpdesk@gmail.com</a></li>
                             </ul>
                         </div>
