@@ -101,10 +101,10 @@
                             <a href="#"><span>Get App</span> <i class="fa-solid fa-angles-right"></i></a>
                         </li>
                     </ul>
-                    <!-- Mega menu area start here -->
+                  
                     
                           
-                    <!-- Mega menu area end here -->
+                   
                 </div>
             </div>
         </div>
@@ -118,7 +118,8 @@
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-6">
-                        <div class="">
+                        <div class="content bg-image">
+                        
                             <h2>Apakah Anda Tertarik <br>
                             Mari Diskusikan</h2>
                             <p></p>
@@ -275,7 +276,7 @@
         <p>&copy; Copyright 2024 <a href="#0">Sip Coffe</a> All Rights Reserved</p>
     </div>
 </footer>
-<!-- Footer area end here -->
+<!-- Footer  -->
 
     <!-- Back to top area start here -->
     <div class="scroll-up">
