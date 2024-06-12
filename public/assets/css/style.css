@@ -3129,6 +3129,7 @@ input {
 }
 .work__item, .work-five__item {
   overflow: hidden;
+  
   position: relative;
   padding: 30px;
   border: var(--border-1px);
@@ -3172,7 +3173,7 @@ input {
 }
 .work__item-arrow::before {
   position: absolute;
-  content: "Know More";
+  content: "Read More";
   font-weight: 600;
   color: var(--primary-color);
   font-size: 16px;
@@ -3883,6 +3884,7 @@ input {
 }
 .donation__item-arrow, .blog-two__item-arrow {
   font-size: 20px;
+  
   position: relative;
   transform: translateX(0);
   transition: var(--transition);
@@ -4589,7 +4591,7 @@ input {
   color: var(--primary-color);
 }
 .blog-two__item-arrow::before {
-  content: "Read More";
+  content: "Read More ";
 }
 .blog-two .swiper-slide.swiper-slide-active .blog-two__item-arrow {
   transform: translateX(95px);
@@ -4821,7 +4823,7 @@ input {
 .section-headerr h5, .section-headerr h2 {
   display: inline-block; /* Membuat teks berada dalam satu baris */
   margin: 0 auto; /* Mengatur margin otomatis pada sisi kiri dan kanan */
-  padding-left: 200px;
+  padding-left: 37px;
 }
 .audio-player {
   height: 50px;
@@ -5317,7 +5319,7 @@ input {
 }
 .contact .content {
   color: var(--white);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/images/contact/01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/images/contact/h1.jpg);
   padding: 40px 30px;
 }
 .contact .content h2 {
@@ -6171,10 +6173,12 @@ input {
   }
 }
 @media screen and (max-width: 424px) {
+  
   .section-header h2 {
     font-size: 30px;
     font-weight: 600;
     line-height: 38px;
+   
   }
   .pt-130 {
     padding-top: 65px;
@@ -6495,9 +6499,15 @@ input {
   .banner-five__content {
     padding: 100px 0 !important;
   }
+  .dropdown .dropdown-content{
+    display: none;
+  }
 }
 @media screen and (max-width: 767px) {
   .banner__scroll-text {
+    display: none;
+  }
+  .dropdown .dropdown-content{
     display: none;
   }
   .banner__content {
@@ -6556,6 +6566,9 @@ input {
 @media screen and (max-width: 424px) {
   .banner {
     padding-top: 30px;
+  }
+  .dropdown .dropdown-content{
+    display: none;
   }
   .banner__content h1 {
     font-size: 30px;
