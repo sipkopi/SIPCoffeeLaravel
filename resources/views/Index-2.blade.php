@@ -1,153 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sip Coffee</title>
-    <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/images/logo/logo1.png">
-    <!-- Bootstarp min css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- All min css -->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!-- Swiper bundle min css -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!-- Magnigic popup css -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- Animate css -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- Nice select css -->
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <!-- Style css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-
-   
-    <div id="loading">
-        <div id="loading-center">
-            <div id="loading-center-absolute">
-                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
-                    <img class="loading-logo" src="assets/images/preloader.svg" alt="icon">
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Header -->
-    <header class="header">
-        <div class="header-top d-none d-lg-block">
-            <div class="container">
-                <div class="header-top-wrp">
-                    <ul class="info">
-                        <li><i class="fa-solid fa-paper-plane"></i> <a href="mailto:sipkopi.helpdesk@gmail.com">Sipkopi.helpdesk@gmail.com</a></li>
-                        <li class="bor-left ms-4 ps-4"><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/rt2jWrGCu6ixBWmn7"> Jl. Raya Situbondo, Blindungan, Kabupaten Bondowoso, Jawa Timur 68211</a>
-                        </li>
-                    </ul>
-                    <ul class="link-info">
-                        <li class="bor-right"><a href="https://www.instagram.com/pkmpi.sipcoffee?igsh=MThibHRocnQwZHczOA=="><i class="fa-brands fa-instagram"></i></a></li>
-                        <li class="bor-right"><a href="https://www.linkedin.com/in/aditya-hari-kurniawan-64370924a/?trk=people_directory&originalSubdomain=id"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href="https://youtube.com/@SIPKopi?si=h9WoAYIKHyVGoNn4"><i class="fa-brands fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="header-section">
-            <div class="container">
-                <div class="header-wrapper">
-                    <div class="logo-menu">
-                        <a href="/" class="logo">
-                            <img src="assets/images/logo/SIP-COFFEE (1).png" alt="logo">
-                        </a>
-                    </div>
-                    <div class="header-bar d-xl-none">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <ul class="main-menu">
-                        <li>
-                            <a href="/ ">Beranda <i class=""></i></a>
-                            <ul >
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="abo">Tentang Kami <i class=""></i></a>
-                            <ul >
-                                
-                            </ul>
-                        </li>
-                       
-                        <li>
-                            <a id="mega-menu-btn" href="Katal">Katalog <i class=""></i></a>
-                            <ul >
-                               
-                                <li class="d-block d-xl-none"><a href="shop.html">Shop</a></li>
-                            
-                               
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="sipT">SipTrace <i class=""></i></a>
-                            
-                        <li>
-                            <a href="kot">Kontak</a>
-                        </li>
-                        <li class="m-0 menu-btn">
-                            <a href="#"><span>Get App</span> <i class="fa-solid fa-angles-right"></i></a>
-                        </li>
-                    </ul>
-                    
-                    
-                          
-                    
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header -->
+@include('front.id.atas')
 
     <main>
       <!-- Banner  -->
-      <section class="banner" data-background="assets/images/bg/banner1.jpg">
+      <section class="banner" data-background="{{asset('assets')}}/images/bg/banner1.jpg">
         <div class="banner__shape d-none d-xxl-block wow bounceInRight" data-wow-duration=".6s"
             data-wow-delay=".8s">
-            <img src="assets/images/banner/02.png" alt="shape">
+            <img src="{{asset('assets')}}/images/banner/02.png" alt="shape">
         </div>
        
         <div class="banner__leaf wow slideInLeft d-none d-md-block" data-wow-duration="1s" data-wow-delay="1s">
-            <img src=" assets/images/shape/leaf.png" alt="shape">
+            <img src=" {{asset('assets')}}/images/shape/leaf.png" alt="shape">
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-4">
                     <div class="banner__image wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".2s">
-                        <img src="assets/images/banner/bl.jpg" alt="image">
+                        <img src="{{asset('assets')}}/images/banner/bl.jpg" alt="image">
                         <div class="banner__image-text">
-                            <img src="assets/images/banner/Sip Coffee (2).png" alt="strock-text">
+                            <img src="{{asset('assets')}}/images/banner/Sip Coffee (2).png" alt="strock-text">
                         </div>
                     </div>
                 </div>
+
+                 <style>
+                            h1.wow.fadeInUp {
+    font-size: 40px;
+   
+    margin: 0;
+    padding: 0;
+}
+
+
+
+                        </style>
                 <div class="col-xl-8">
                     <div class="banner__content">
-                        <h4 class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">Sip Coffee</h4>
-                        <h1 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">Get Better With Sip Coffee<span class="primary-color"></span></h1>
+                        <h4 class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">SIP Coffee</h4>
+                        <h1 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">Memajukan Sektor Perkebunan Kopi bersama SIP Coffee<span class="primary-color"></span></h1>
                         <div class="row g-4 align-items-center">
                             <div class="col-md-4">
-                                <a href="abo" class="btn-one wow fadeInUp" data-wow-duration="1.5s"
-                                    data-wow-delay=".5s"><span>Kunjungi Kami </span> <i
+                                <a href="/tentang" class="btn-one wow fadeInUp" data-wow-duration="1.5s"
+                                    data-wow-delay=".5s"><span>Hubungi Kami </span> <i
                                         class="fa-solid fa-angles-right"></i></a>
                             </div>
                             <div class="col-md-8">
                                 <div class="banner__content-con wow fadeInUp" data-wow-duration="1.6s"
                                     data-wow-delay=".6s">
-                                    <img src="assets/images/icon/arrow-long.png" alt="arrow">
+                                    <img src="{{asset('assets')}}/images/icon/arrow-long.png" alt="arrow">
                                     <p>
-                                        Ketelusuran kopi adalah studi ilmiah tentang hubungan antara kopi dan lingkungan tumbuhnya, 
-                                        termasuk faktor fisik, kimia, dan biologis yang mempengaruhi kualitas dan karakteristik kopi.</p>
+                                       Sistem Ketertelusuran pada SIP Coffee memungkinkan pelacakan setiap tahap produksi  kopi mulai dari penanaman, perawatan, panen, hingga siap jual.
+                                        SIP Coffee tidak hanya  membantu dalam memastikan kualitas produk kopi pada Kopi Ekspor Khas Bondowoso, 
+                                        tetapi juga dalam memenuhi persyaratan sertifikasi internasional seperti Fair Trade, Rainforest Alliance, dan Organik.</p>
                                 </div>
                             </div>
                         </div>
@@ -156,18 +59,233 @@
             </div>
         </div>
     </section>
+    <br>
+    <br>
     <!-- Banner -->
 
+	<div id="colorlib-about">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Produk </h2>
+				</div>
+                <br>
+                
+				<div class="row">
+					<div class="col-md-5 animate-box">
+						
+						<div class="item">
+								<img style="border-radius: 10px;" height="500" width="500" class="img-responsive about-img" src="{{asset('assets')}}/images/banner/ppd.png" alt="Gambar tidak ada">
+							</div>
+					
+					</div>
+					<div class="col-md-7 col-md-push-1 animate-box">
+						<div class="about-desc">
+							<div class="item">
+								<h2><span>Arabika Blue Mountain</span></h2>
+							</div>
+                            <br>
+                            <br>
+					
+							<div class="desc">
+								<div class="rotate">
+									<h2 class="heading">Produk</h2>
+								</div>  
+								
+								<div class="col-md-8 ">
+									<p>Rasa kopi Arabika Blue Mountain Bondowoso dikenal sebagai salah satu yang terbaik di dunia. Secangkir kopi ini sering kali memiliki keasaman yang seimbang, tubuh yang lembut, dan citarasa yang kompleks. Anda mungkin menemukan sentuhan buah-buahan, bunga, serta sedikit keasaman yang menyegarkan.</p>
+								</div>
+                                <br>
+								<div class="d-flex justify-content-between">
+									
+									
+								</div>
+								<br>
+								<a href="/inventaris" class="btn btn-primary btn-outline">Lihat Produk</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
 
+
+<style>
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+  
+
+
+
+
+#colorlib-about {
+  padding: 8em 0;
+  clear: both;
+  position: relative; }
+  @media screen and (max-width: 768px) {
+    #colorlib-services,
+    #colorlib-contact,
+    #colorlib-work,
+    #colorlib-blog,
+    #colorlib-testimony,
+    #colorlib-progress,
+    #colorlib-contact,
+    #colorlib-about {
+      padding: 3.5em 0; } }
+
+      
+.bold {
+  position: absolute;
+z-index: -100;
+
+  left: 0;
+  right: 0;
+  font-size: 250px;
+  color: #f0f0f0;
+  font-weight: 700; }
+  @media screen and (max-width: 768px) {
+    .bold {
+      font-size: 60px; } }
+
+.rotate {
+  position: absolute;
+  top: .9em;
+  left: -50px; }
+  .rotate .heading {
+    font-family: "Karla", Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -ms-transform-origin: left top 0;
+    -o-transform-origin: left top 0;
+    transform-origin: left top 0;
+    position: relative; }
+    .rotate .heading:after {
+      position: absolute;
+      top: 8px;
+      right: -40px;
+      content: '';
+      background: #000;
+      width: 40px;
+      height: 1px; }
+
+    
+.about-desc {
+  padding-top: 3em; }
+  .about-desc h2 {
+    line-height: 1.3; 
+    
+}
+    .about-desc h2 span {
+      display: block;
+      margin-bottom: 0;
+      color: #000;
+      font-size: 50px;
+      font-weight:normal;
+      font-family: "Playfair Display", Georgia, serif; }
+  .about-desc .desc {
+    padding-left: 6em;
+    position: relative; }
+  .about-desc .rotate {
+    position: absolute;
+    top: 7px;
+    left: 30px; }
+    .about-desc .rotate .heading {
+      font-family: "Karla", Arial, sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1em;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+      -webkit-transform-origin: left top 0;
+      -ms-transform-origin: left top 0;
+      transform-origin: left top 0;
+      position: relative; }
+      .about-desc .rotate .heading:after {
+        position: absolute;
+        top: 8px;
+        right: -40px;
+        content: '';
+        background: #000;
+        width: 40px;
+        height: 1px; }
+
+        
+
+        .btn {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-size: 13px !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 8px 20px; }
+  .btn.btn-md {
+    padding: 8px 20px !important; }
+  .btn.btn-lg {
+    padding: 18px 36px !important; }
+  .btn:hover, .btn:active, .btn:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important; }
+
+.btn-primary {
+  background: #9BEC00;
+  color: #fff;
+  border: 2px solid #9BEC00; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: #9BEC00 !important;
+    border-color: #9BEC00 !important; }
+  .btn-primary.btn-outline {
+    background: transparent;
+    color: #4d4d4d;
+    border: 1px solid #d9d9d9; }
+    .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+      background: #9BEC00;
+      color: #fff; }
+
+      .btn-outline {
+  background: none;
+  border: 2px solid gray;
+  font-size: 16px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+  .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+</style>
         <!-- Work -->
-        <section class="work pt-130 pb-130 bg-image" data-background="assets/images/bg/banner1.jpg">
+        <section class="work pt-130 pb-130 bg-image" data-background="{{asset('assets')}}/images/bg/banner1.jpg">
             <div class="container">
                 <div class="pb-65 bor-bottom mb-65">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6">
                             <div class="section-header m-0">
                                 <h5 class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s"><img
-                                        src="assets/images/icon/leaf.svg" alt="image"> Transformasi</h5>
+                                        src="{{asset('assets')}}/images/icon/leaf.svg" alt="image"> Transformasi</h5>
                                 <h2 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">Transformasi Positif dalam Industri Kopi </h2>
                             </div>
                         </div>
@@ -183,15 +301,15 @@
                         data-wow-delay=".2s">
                         <div class="work__item">
                             <div class="work__item-icon">
-                                <img src="assets/images/icon/search (3) (1).png" alt="icon">
+                                <img src="{{asset('assets')}}/images/icon/search (3) (1).png" alt="icon">
                                 <span>01</span>
                             </div>
-                            <h3>Ketelusuran rantai pasokan kopi global</h3>
+                            <h3>Ketertelusuran rantai pasokan kopi global</h3>
                             <p>Kami memperbaiki masalah rantai pasokan yang rusak dengan meningkatkan transparansi data dalam industri kopi.</p>
                             <a class="" href=""><i
                                     class=""></i></a>
                             <div class="work__item-leaf">
-                                <img src="assets/images/shape/work-leaf.png" alt="">
+                                <img src="{{asset('assets')}}/images/shape/work-leaf.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -199,7 +317,7 @@
                         data-wow-delay=".4s">
                         <div class="work__item">
                             <div class="work__item-icon">
-                                <img src="assets/images/icon/product (1).png" alt="icon">
+                                <img src="{{asset('assets')}}/images/icon/product (1).png" alt="icon">
                                 <span>02</span>
                             </div>
                             <h3>Produktivitas Pertanian Kopi 
@@ -209,7 +327,7 @@
                             <a class="" href=""><i
                                     class=""></i></a>
                             <div class="work__item-leaf">
-                                <img src="assets/images/shape/work-leaf.png" alt="">
+                                <img src="{{asset('assets')}}/images/shape/work-leaf.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -217,7 +335,7 @@
                         data-wow-delay=".6s">
                         <div class="work__item">
                             <div class="work__item-icon">
-                                <img src="assets/images/icon/list (1).png" alt="icon">
+                                <img src="{{asset('assets')}}/images/icon/list (1).png" alt="icon">
                                 <span>03</span>
                             </div>
                             <h3>rantai pasokan kopi yang inklusif dan dapat ditelusuri.</h3>
@@ -226,7 +344,7 @@
                             <a class="" href=""><i
                                     class=""></i></a>
                             <div class="work__item-leaf">
-                                <img src="assets/images/shape/work-leaf.png" alt="">
+                                <img src="{{asset('assets')}}/images/shape/work-leaf.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -234,7 +352,7 @@
                         data-wow-delay=".8s">
                         <div class="work__item">
                             <div class="work__item-icon">
-                                <img src="assets/images/icon/monitoring (1).png" alt="icon">
+                                <img src="{{asset('assets')}}/images/icon/monitoring (1).png" alt="icon">
                                 <span>04</span>
                             </div>
                             <h3>Monitor Pertumbuhan Tanaman Secara Real-Time</h3>
@@ -244,7 +362,7 @@
                             <a class="" href=""><i
                                     class=""></i></a>
                             <div class="work__item-leaf">
-                                <img src="assets/images/shape/work-leaf.png" alt="">
+                                <img src="{{asset('assets')}}/images/shape/work-leaf.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -256,7 +374,7 @@
         <!-- Achievement  -->
         <div class="achievement-two mt-130">
             <div class="container">
-                <div class="achievement p-5" data-background="assets/images/bg/dt-7.jpg">
+                <div class="achievement p-5" data-background="{{asset('assets')}}/images/bg/dt-7.jpg">
                     <div class="row g-4 align-items-center justify-content-between">
                         <div class="col-lg-5 achievement__bor-right wow fadeInUp" data-wow-duration="1.2s"
                             data-wow-delay=".2s">
@@ -268,7 +386,7 @@
                         <div class="col-lg-2 achievement__bor-right wow fadeInUp" data-wow-duration="1.4s"
                             data-wow-delay=".4s">
                             <div class="achievement__item text-center">
-                                <img src="assets/images/icon/achieve1.png" alt="icon">
+                                <img src="{{asset('assets')}}/images/icon/achieve1.png" alt="icon">
                                 <h5>Trees planted</h5>
                                 <span class="count">6,472,068</span>
                             </div>
@@ -276,14 +394,14 @@
                         <div class="col-lg-2 achievement__bor-right wow fadeInUp" data-wow-duration="1.6s"
                             data-wow-delay=".6s">
                             <div class="achievement__item text-center">
-                                <img src="assets/images/icon/achieve2.png" alt="icon">
+                                <img src="{{asset('assets')}}/images/icon/achieve2.png" alt="icon">
                                 <h5>Families helped</h5>
                                 <span class="count">38,768</span>
                             </div>
                         </div>
                         <div class="col-lg-2 wow fadeInUp" data-wow-duration="1.8s" data-wow-delay=".8s">
                             <div class="achievement__item text-center">
-                                <img src="assets/images/icon/achieve3.png" alt="icon">
+                                <img src="{{asset('assets')}}/images/icon/achieve3.png" alt="icon">
                                 <h5>CO2 captured (tonne)</h5>
                                 <span class="count">1,193,210</span>
                             </div>
@@ -297,7 +415,7 @@
   <!-- Blog -->
   <section class="blog pt-130 pb-130">
     <div class="blog__shape d-none fall__animation d-sm-block">
-        <img src="assets/images/shape/blog.png" alt="shape">
+        <img src="{{asset('assets')}}/images/shape/blog.png" alt="shape">
     </div>
     <div class="container">
         <div class="blog__head-wrp mb-65">
@@ -329,7 +447,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="image">
-                                            <img src="assets/images/blog/im-1.png" alt="image">
+                                            <img src="{{asset('assets')}}/images/blog/im-1.png" alt="image">
                                         </div>
                                     </div>
                                 </div>
@@ -348,7 +466,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="image">
-                                            <img src="assets/images/blog/im-2.png" alt="image">
+                                            <img src="{{asset('assets')}}/images/blog/im-2.png" alt="image">
                                         </div>
                                     </div>
                                 </div>
@@ -367,7 +485,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="image">
-                                            <img src="assets/images/blog/im-3.png" alt="image">
+                                            <img src="{{asset('assets')}}/images/blog/im-3.png" alt="image">
                                         </div>
                                     </div>
                                 </div>
@@ -389,13 +507,13 @@
         <!-- Involved area start here -->
         <section class="involve-two pt-130 pb-130">
             <div class="involve-two__shape d-none d-md-block animation__rotate">
-                <img src="assets/images/logo/1.png" alt="shape">
+                <img src="{{asset('assets')}}/images/logo/1.png" alt="shape">
             </div>
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-xl-6">
                         <div class="involve-two__image">
-                            <img src="assets/images/banner/raisa3.jpg" alt="image">
+                            <img src="{{asset('assets')}}/images/banner/raisa3.jpg" alt="image">
                             
                         </div>
                     </div>
@@ -403,46 +521,47 @@
                         <div class="about-two__right-item">
                             <div class="section-header mb-4">
                                 <h5 class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s"><img
-                                        src="assets/images/icon/leaf.svg" alt="image"> Potensi</h5>
-                                <h2 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">Peluang Bondowoso coffe</h2>
-                                <p class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">Indonesia telah lama menjadi pemain utama dalam industri kopi global. Pada tahun 2017, ekspor komoditas kopi di Indonesia memiliki nilai US$1.175,4 juta (BPS 2020). Menurut PUSDATIN (2020), 
-                                    Indonesia merupakan produsen kopi terbesar ketiga di dunia setelah Brazil dan Vietnam. Kabupaten Bondowoso, 
-                                    sebagai salah satu kabupaten di Jawa Timur, telah menunjukkan kontribusi yang sangat signifikan dalam industri kopi Indonesia.</p>
+                                        src="{{asset('assets')}}/images/icon/leaf.svg" alt="image"> Potensi</h5>
+                                <h2 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">Potensi Kopi Bondowoso</h2>
+                                <p class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">Kopi arabika Bondowoso semakin diminati di pasar internasional karena meningkatnya produktivitas perkebunan dan kualitas citarasa alami yang khas.
+                                 Kabupaten ini, dikenal sebagai "republik kopi," memiliki ekspor kopi terbesar, dengan varietas paling populer seperti kopi ijen raung. 
+                                 Citarasa khas kopi arabika Bondowoso mencakup rasa asam dan manis yang lemah, serta aroma jahe yang unik. Dalam menghadapi persaingan bisnis yang semakin ketat, petani kopi dan
+                                  barista berupaya mempertahankan nama baik kopi tersebut dengan memperbarui citarasa tanpa merusak rasa aslinya, termasuk dengan menawarkan kopi-kopi dengan rasa tambahan yang inovatif.</p>
                             </div>
                             <div class="row g-3">
                                 <div class="col-md-5 wow fadeInUp" data-wow-duration="1.8s" data-wow-delay=".8s">
                                     <div class="d-flex align-items-center">
-                                        <img src="assets/images/banner/narray.png" alt="image">
+                                        <img src="{{asset('assets')}}/images/banner/narray.png" alt="image">
                                         <h4 class="ml-20">Narray Coffe</h4>
                                     </div>
                                 </div>
                                 <div class="col-md-6 wow fadeInUp" data-wow-duration="1.8s" data-wow-delay=".8s">
                                     <div class="d-flex align-items-center">
-                                        <img src="assets/images/logo/file.png" alt="image">
-                                        <h4 class="ml-20">Kopi Raisa </h4>
+                                        <img src="{{asset('assets')}}/images/logo/logorr.png" alt="image">
+                                        <h4 class="ml-20">Sekolah Kopi Raisa </h4>
                                     </div>
                                 </div>
                             </div>
                             <ul class="wow mt-4 fadeInDown" data-wow-duration="1.2s" data-wow-delay=".2s">
-                                <li class="mb-20"><img class="pe-2" src="assets/images/icon/leaf.svg" alt="icon">
+                                <li class="mb-20"><img class="pe-2" src="{{asset('assets')}}/images/icon/leaf.svg" alt="icon">
                                     Berkelanjutan
                                 </li>
-                                <li class="mb-20"><img class="pe-2" src="assets/images/icon/leaf.svg" alt="icon">
-                                    Integratif
+                                <li class="mb-20"><img class="pe-2" src="{{asset('assets')}}/images/icon/leaf.svg" alt="icon">
+                                    Terintegrasi
                                 </li>
-                                <li><img class="pe-2" src="assets/images/icon/leaf.svg" alt="icon">
+                                <li><img class="pe-2" src="{{asset('assets')}}/images/icon/leaf.svg" alt="icon">
                                     Terdata Dari Awal
                                 </li>
                             </ul>
                             <div class="about_info d-flex align-items-center pt-60 wow fadeInUp"
                                 data-wow-duration="1.9s" data-wow-delay=".9s">
-                                <a href="abo" class="btn-one"><span>Kunjungi Kami</span> <i
+                                <a href="/kontak" class="btn-one"><span>Hubungi Kami</span> <i
                                         class="fa-solid fa-angles-right"></i></a>
                                 <span class="bor-left d-none d-sm-block mx-4"></span>
                                 <div class="info d-flex flex-wrap align-items-center">
                                     <i class="fa-solid fa-phone-volume ring-animation"></i>
                                     <div class="about_info_con">
-                                        <span class="d-block text-capitalize">Hubungi Kami</span>
+                                        <span class="d-block text-capitalize">Kontak Kami</span>
                                         <a href="https://wa.me/085856867561">+62 8585 6867 561</a>
                                     </div>
                                 </div>
@@ -460,7 +579,7 @@
                 <div class="row g-4">
                     <div class="col-xl-6">
                         <div class="image">
-                            <img src="assets/images/banner/flow.png" alt="image">
+                            <img src="{{asset('assets')}}/images/banner/flow.png" alt="image">
                         </div>
                     </div>
                     <div class="col-xl-6">
@@ -480,13 +599,13 @@
         <!-- Blog  -->
         <section class="blog-two pt-130">
             <div class="blog-two__shape sway__animation">
-                <img src="assets/images/shape/blog.png" alt="shape">
+                <img src="{{asset('assets')}}/images/shape/blog.png" alt="shape">
             </div>
             <div class="container">
                 <div class="blog__head-wrp mb-65">
                     <div class="section-header m-0">
                         <h5 class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s"><img
-                                src="assets/images/icon/leaf.svg" alt="image"> Berita Kopi</h5>
+                                src="{{asset('assets')}}/images/icon/leaf.svg" alt="image"> Berita Kopi</h5>
                         <h2 class="wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".4s">Berita Tentang Dunia Kopi
                             <br>
                             
@@ -501,7 +620,7 @@
                         <div class="donation__item blog-two__item bor">
                             <div class="blog-two__image mb-85">
                                 <div class="image">
-                                    <img src="assets/images/blog/leoo1.jpg" alt="image">
+                                    <img src="{{asset('assets')}}/images/blog/leoo1.jpg" alt="image">
                                     <div class="blog-two__info">
                                         <h4>15 <br> JUNI</h4>
                                         <span>2023</span>
@@ -517,7 +636,7 @@
                         <div class="donation__item blog-two__item bor">
                             <div class="blog-two__image mb-85">
                                 <div class="image">
-                                    <img src="assets/images/blog/leoo2.jpg" alt="image">
+                                    <img src="{{asset('assets')}}/images/blog/leoo2.jpg" alt="image">
                                     <div class="blog-two__info">
                                         <h4>22 <br> MARET</h4>
                                         <span>2024</span>
@@ -534,7 +653,7 @@
                         <div class="donation__item blog-two__item bor">
                             <div class="blog-two__image mb-85">
                                 <div class="image">
-                                    <img src="assets/images/banner/fah.jpg" alt="image">
+                                    <img src="{{asset('assets')}}/images/banner/fah.jpg" alt="image">
                                     <div class="blog-two__info">
                                         <h4> 16 <br> JUNI</h4>
                                         <span>2023</span>
@@ -551,7 +670,7 @@
                         <div class="donation__item blog-two__item bor">
                             <div class="blog-two__image mb-85">
                                 <div class="image">
-                                    <img src="assets/images/blog/kopi-RAISA.jpg" alt="image">
+                                    <img src="{{asset('assets')}}/images/blog/kopi-RAISA.jpg" alt="image">
                                     <div class="blog-two__info">
                                         <h4>7 <br> JULI</h4>
                                         <span>2022</span>
@@ -571,111 +690,7 @@
         <!-- Blog  -->
     </main>
 
-    <!-- Footer  -->
-    <footer class="footer footer-two pt-130 bg-image " data-background="assets/images/bg/footer-two-bg.jpg">
-        <div class="container">
-            <div class="footer-two__wrp secondary-bg">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
-                        <div class="footer__item px-4 pt-40 pb-40 footer-two__item primary-bg">
-                            <a href="/" class="logo mb-30">
-                                <img src="assets/images/logo/SIP-COFFEE.png" alt="logo">
-                            </a>
-                            <p class="mb-20 pb-20 bor-bottom">
-                                Kualitas kopi semakin meningkat dengan inovasi, perhatian pada detail, dan dedikasi para ahli,
-                                 Setiap langkah berkontribusi pada kelezatannya.</p>
-                            <div class="social-icon">
-                               
-                                <a href="https://www.instagram.com/pkmpi.sipcoffee?igsh=MThibHRocnQwZHczOA=="><i class="fa-brands fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/in/aditya-hari-kurniawan-64370924a/?trk=people_directory&originalSubdomain=id"><i class="fa-brands fa-linkedin-in"></i></a>
-                                <a href="https://youtube.com/@SIPKopi?si=h9WoAYIKHyVGoNn4"><i class="fa-brands fa-youtube"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 wow fadeInUp text-black " data-wow-duration="1.4s" data-wow-delay=".6s">
-                        <div class="footer__item footer-two__item pt-60 pb-40 ">
-                            <div class="footer__item-title ">
-                                <h4>Quick Link</h4>
-                                <span class="footer__item-title-line "></span><span
-                                    class="footer__item-title-line2 "></span>
-                            </div>
-                            <ul>
-                                <li class="pb-1"><a href="/"><i
-                                            class="fa-solid fa-chevron-right pe-1 primary-color"></i>
-                                        Beranda
-                                    </a>
-                                </li>
-                                <li class="pb-1"><a href="abo"><i
-                                            class="fa-solid fa-chevron-right pe-1 primary-color"></i>
-                                        Tentang Kami
-                                    </a>
-                                </li>
-                                <li class="pb-1"><a href="Katal"><i
-                                            class="fa-solid fa-chevron-right pe-1 primary-color"></i>
-                                       Katalog
-                                    </a>
-                                </li>
-                                <li class="pb-1"><a href="sipT"><i
-                                            class="fa-solid fa-chevron-right pe-1 primary-color"></i>
-                                        Inovasi
-                                    </a>
-                                </li>
-                                <li><a href="ckot"><i
-                                            class="fa-solid fa-chevron-right pe-1 primary-color"></i> Kontak Kami
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".4s">
-                        <div class="footer__item footer-two__item pt-60 pb-40">
-                            <div class="footer__item-title">
-                                <h4>Get in touch!</h4>
-                                <span class="footer__item-title-line"></span><span
-                                    class="footer__item-title-line2"></span>
-                            </div>
-                            <ul>
-                                <li class="pb-3"><a href="https://maps.app.goo.gl/rt2jWrGCu6ixBWmn7"><i
-                                            class="fa-solid fa-location-dot pe-1 primary-color"></i>
-                                            Jl. Raya Situbondo, Blindungan, Kec. Bondowoso, Kabupaten Bondowoso, Jawa Timur 68211
-                                    </a>
-                                </li>
-                                <li class="pb-3"><a href="https://wa.me/085856867561"><i
-                                            class="fa-solid fa-phone-volume pe-1 primary-color"></i>
-                                        +62-8585-6867-561
-                                    </a></li>
-                                <li><a href="mailto:sipkopi.helpdesk@gmail.com"><i class="fa-solid fa-envelope pe-1 primary-color"></i>
-                                        Sipkopi.helpdesk@gmail.com</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1.8s" data-wow-delay=".8s">
-                        <div class="footer__item footer-two__item pt-60 pb-40 pe-4">
-                            <div class="footer__item-title">
-                                <h4>Lebih Dekat Dengan Kami</h4>
-                                <span class="footer__item-title-line"></span><span
-                                    class="footer__item-title-line2"></span>
-                            </div>
-                            <p class="text-white">Hubungi Email Kami Jika Ingin Melakukan Kerja sama
-                            </p>
-                            <div class="input-area mt-30">
-                                <input type="text" placeholder="Your Email">
-                                <button>
-                                    <i class="fa-sharp fa-solid fa-paper-plane"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer__copyright footer-two__copyright">
-            <p>&copy; Copyright 2024 <a href="#0">Sip Coffe</a> All Rights Reserved</p>
-        </div>
-    </footer>
-    <!-- Footer  -->
+    @include('front.id.bawah')
 
     <!-- Back to top area start here -->
     <div class="scroll-up">
@@ -686,25 +701,25 @@
     <!-- Back to top area end here -->
 
     <!-- Jquery 3. 7. 1 Min Js -->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="{{asset('assets')}}/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap min Js -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{asset('assets')}}/js/bootstrap.min.js"></script>
     <!-- Swiper bundle min Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="{{asset('assets')}}/js/swiper-bundle.min.js"></script>
     <!-- Counterup min Js -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="{{asset('assets')}}/js/jquery.counterup.min.js"></script>
     <!-- Wow min Js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="{{asset('assets')}}/js/wow.min.js"></script>
     <!-- Magnific popup min Js -->
-    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="{{asset('assets')}}/js/magnific-popup.min.js"></script>
     <!-- Nice select min Js -->
-    <script src="assets/js/nice-select.min.js"></script>
+    <script src="{{asset('assets')}}/js/nice-select.min.js"></script>
     <!-- Isotope pkgd min Js -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="{{asset('assets')}}/js/isotope.pkgd.min.js"></script>
     <!-- Waypoints Js -->
-    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="{{asset('assets')}}/js/jquery.waypoints.js"></script>
     <!-- Script Js -->
-    <script src="assets/js/script.js"></script>
+    <script src="{{asset('assets')}}/js/script.js"></script>
 </body>
 
 </html>
